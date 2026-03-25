@@ -157,8 +157,8 @@ function StatusIcon({ icon, active, label }: { icon: React.ReactNode, active: bo
     <div className="flex flex-col items-center space-y-2">
       <motion.div 
         animate={{ 
-          backgroundColor: active ? '#ffffff' : 'transparent',
-          borderColor: active ? '#E2E8F0' : 'transparent',
+          backgroundColor: active ? '#ffffff' : 'rgba(255, 255, 255, 0)',
+          borderColor: active ? '#E2E8F0' : 'rgba(226, 232, 240, 0)',
           color: active ? '#344BAA' : '#94A3B8',
           scale: active ? 1 : 0.95
         }}
